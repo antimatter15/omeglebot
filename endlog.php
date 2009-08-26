@@ -27,14 +27,14 @@ for($i = 0; $i < $num; $i++){
 file_put_contents("logs/html/$start ID$id ($num lines).html",$html);
 file_put_contents("logs/text/$start ID$id ($num lines).txt",$text);
 
-
-$ch = curl_init("http://botbash.antimatter15.com/?adminadd");
+/*
+$ch = curl_init("");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS,array("quote"=>$notime));
 $result = curl_exec ($ch);
 curl_close ($ch);
-
+*/
 
 }
 ?>
